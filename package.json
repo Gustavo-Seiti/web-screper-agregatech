@@ -1,0 +1,17 @@
+{
+  "name": "extrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "puppeteer": "^22.7.1"
+  },
+  "type": "module"
+}
