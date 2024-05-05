@@ -11,10 +11,11 @@ import {
 
   
   const MODEL_NAME = "gemini-1.5-pro-latest";
-  const API_KEY = process.env.API_KEY;
+  const API_KEY = 'AIzaSyCYgs2n0_Ek2gcsKtRXZT9C3NXnbCkmZHQ';
   
 
 const runChat = async (input) => {
+    console.log("LOG: Enviando vagas para GEMINI" + new Date().getTime)  
     const genAI = new GoogleGenerativeAI(API_KEY);
     const model = genAI.getGenerativeModel({ model: MODEL_NAME });
   
